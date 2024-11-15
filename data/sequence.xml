@@ -1,0 +1,11 @@
+<odoo>
+    <data noupdate="1">
+        <record id="seq_support_ticket" model="ir.sequence">
+            <field name="name">Support Ticket</field>
+            <field name="code">support.ticket</field>
+            <field name="prefix">TICKET-</field>
+            <field name="padding">4</field>
+            <field name="number_next">1</field>
+        </record>
+    </data>
+</odoo>
